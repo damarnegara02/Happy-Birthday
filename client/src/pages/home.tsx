@@ -8,7 +8,7 @@ export default function Home() {
   useEffect(() => {
     const elements = Array.from({ length: 8 }, (_, i) => ({
       id: i,
-      emoji: ['💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫'][i],
+      emoji: ['💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫','💕', '✨', '💖', '🌟', '💝', '🌙', '⭐', '💫'][i],
       left: `${Math.random() * 90 + 5}%`,
       delay: Math.random() * 3
     }));
@@ -66,14 +66,14 @@ export default function Home() {
         </div>
         
         <h1 className="romantic-font text-6xl md:text-8xl font-bold gradient-text mb-6 animate-fadeIn hover:animate-wiggle cursor-default">
-          Halo Sayang
+          Happy Birthday Sayangku
         </h1>
         
         <p 
           className="text-xl md:text-2xl text-muted-foreground mb-8 animate-fadeIn hover:text-primary transition-colors duration-500" 
           style={{ animationDelay: '0.3s' }}
         >
-          Website khusus yang kubuat untuk menunjukkan betapa istimewanya kamu bagiku ✨
+          Selamat Ulang Tahun ke 20 Sayang, Semoga Panjang umur dan Sehat Selalu ✨
         </p>
         
         <div 
@@ -110,7 +110,7 @@ export default function Home() {
           style={{ animationDelay: '1s' }}
         >
           <p className="romantic-font text-2xl text-primary/70 italic hover:text-primary transition-colors duration-500 cursor-default">
-            "Kamu adalah alasan aku percaya pada keajaiban cinta" 💕
+            " Kamu adalah cinta pertamaku dan ku harap menjadi yang pertama dan selamanya bersama" 💕
           </p>
         </div>
       </div>

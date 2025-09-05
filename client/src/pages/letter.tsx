@@ -132,30 +132,30 @@ export default function Letter() {
             <Card className="memory-card rounded-2xl mb-8">
               <CardContent className="p-8 text-left">
                 <div className="text-center mb-6">
-                  <p className="romantic-font text-3xl text-primary">Surat Cinta</p>
-                  <p className="text-muted-foreground">Dari: Seseorang yang sangat mencintaimu</p>
+                  <p className="romantic-font text-3xl text-primary">Happy Birthday Sayang</p>
+                  <p className="text-muted-foreground">Dari: Pacarmu Tercinta</p>
                 </div>
                 
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>Sayang,</p>
                   
-                  <p>Aku tidak tahu bagaimana cara mengekspresikan perasaan yang begitu besar ini dengan kata-kata. Tapi aku akan mencoba...</p>
+                  <p>aku ucapin selamat ulang tahun buat kmu, aku berharap kmu Panjang umur dan diberikan Kesehatan selalu, ku juga berharap semoga kmu diberikan rezeki yang melimpah dan bisa cepet lulus kuliah dan dapat kerjaan yang terbaik, semoga juga kmu diberikan kesabaran yang luas banget ngadepin pacarmu yang angin anginan ini hehe.</p>
                   
-                  <p>Kamu adalah orang yang mengubah hidupku menjadi lebih bermakna. Sebelum bertemu denganmu, aku merasa seperti puzzle yang tidak lengkap. Tapi sekarang, kamu adalah potongan terakhir yang membuat semuanya sempurna.</p>
+                  <p>Dari awal kita ketemu kmu udah ngubah banyak banget hal di dalam hidupku, kmu buat hidupku lebih berwarna, lebih terarah dan lebih banyak kenangan indah. Bersamamu ku udah ngejalanin banyak banget momen sukda dan duka yang udah kita lewatin bareng banreng.</p>
                   
-                  <p>Setiap saat bersamamu adalah momen yang ingin kubekukan waktu. Tawamu adalah musik terindah yang pernah kudengar. Senyummu adalah matahari yang menerangi hari-hariku.</p>
+                  <p>Ku harap kmu ga bakal berubah, kmu tetap dengan dirimu sendiri dengan dirimu seperti itu lah ku cinta kmu apa adanya ku suka kmu apa adanya, ku juga berharap kmu selalu ingat aklu ada di sampingmu, selama kmu masih sama aku ku bakal selalu ada, ku bakal jadi pendengar, penghibur, pacar dan apapun yang kmu pengenin. Ku harap kmu bakal selalu inget aklo akua da di sampingmu, jadi kalo kmu ada masalah kalo kmu ada apa apa, kmu harus ngomong sama aku yaa, jangan di pendam sendiri, itu ga baik. Kmu bilang ke aku kmu curhat ke aku, aku bakal dengerin. Mungkin ku ga bisa ngasi Solusi tapi ku bakal menajaadi pendengar terbaikmu.</p>
                   
-                  <p>Aku berjanji akan selalu ada untukmu, dalam keadaan apapun. Ketika kamu sedih, aku akan menjadi bahumu untuk menangis. Ketika kamu bahagia, aku akan menjadi teman terbaikmu untuk merayakannya.</p>
+                  <p>Udah 2 tahun lebih kita Bersama dan yaa, harapanku masih sama dan ga bakal berubah, mungkin mu udah bosen bvanget sama harapan ini, tapi ini Adalah harapanku terbesar. Ku harap kitab isa selalu bersama menjalani hubungan suka dan duka, semoga kita dikuatkan dan menjadi orang yang tidak terpisahkan, menjadi pasangan yang saling mengisi dan melengkapi, menjadi pasangan yang bisa menperbaiki diri agar hubungan lebih baik. Menjadi dua orang yang tidak terpisahkan hingga menjadi suami istri dan tak terpisahkan sampai tau dan ajal menjemput. Aku tau, ku masih banyak kekurangan dan kesalahan, ku tau diriku ini masih jauh dari kata sempurna, tapi ku harap kmu bisa ngarahin aku jadi apa yang kmu mau, ku harap kmu jangan tinggalin aku, bombing aku hingga menjadi pria yang paling kmu sukai.</p>
                   
-                  <p>Terima kasih sudah menjadi bagian terpenting dalam hidupku. Terima kasih sudah mengajarkanku arti cinta yang sesungguhnya.</p>
+                  <p>Yaa itu Adalah harapanku dan doaku buat kmu. Sekali lagi Happy Birthday Sayanggg.Makasi karena udah selalua da untukku dan ngarahin aku menjadi lebih baik, doa terbaik buat pacarku tercinta Love You. Jangan lupa traktir aku yaaa heheee</p>
                   
                   <p className="text-center romantic-font text-2xl text-primary mt-8">
-                    Aku mencintaimu lebih dari yang bisa kata-kata ungkapkan ❤️
+                    Makasi Udah nemenin aku dari 0 Semoga kedepannya kitamenjadi tak terpisahkan dan hidup dengan Bahagia dan berkecukupan ❤️
                   </p>
                   
                   <div className="text-right mt-6">
                     <p className="romantic-font text-xl text-primary">Dengan cinta,</p>
-                    <p className="romantic-font text-2xl text-primary">Pacarmu yang bucin ❤️</p>
+                    <p className="romantic-font text-2xl text-primary">Pacarmu Tercinta ❤️</p>
                   </div>
                 </div>
               </CardContent>
