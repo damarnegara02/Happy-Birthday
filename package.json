@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",
     "build:frontend": "vite build --outDir dist/frontend",
-    "build:backend": "esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir dist/backend",
+    "build:backend": "esbuild server/index.ts --bundle --platform=node --format=esm --outfile=dist/backend/index.js --external:lightningcss",
     "build": "npm run build:frontend && npm run build:backend",
     "start": "cross-env NODE_ENV=production node dist/backend/index.js",
     "check": "tsc",
@@ -78,6 +78,7 @@
     "zod-validation-error": "^3.4.0"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.27.1",
     "@replit/vite-plugin-cartographer": "^0.3.0",
     "@replit/vite-plugin-runtime-error-modal": "^0.0.3",
     "@tailwindcss/typography": "^0.5.15",
