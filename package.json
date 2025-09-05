@@ -7,8 +7,8 @@
     "dev": "cross-env NODE_ENV=development tsx server/index.ts",
     "build:frontend": "vite build --outDir dist/frontend",
     "build:backend": "esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir dist/backend",
-    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
-    "start": "cross-env NODE_ENV=production node dist/index.js",
+    "build": "npm run build:frontend && npm run build:backend",
+    "start": "cross-env NODE_ENV=production node dist/backend/index.js",
     "check": "tsc",
     "db:push": "drizzle-kit push"
   },
@@ -91,7 +91,7 @@
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.1",
     "@types/ws": "^8.5.13",
-    "@vitejs/plugin-react": "^4.3.2",
+    "@vitejs/plugin-react": "^4.7.0",
     "autoprefixer": "^10.4.20",
     "cross-env": "^10.0.0",
     "drizzle-kit": "^0.31.4",
@@ -100,7 +100,7 @@
     "tailwindcss": "^3.4.17",
     "tsx": "^4.19.1",
     "typescript": "5.6.3",
-    "vite": "^7.1.4"
+    "vite": "^6.9.0"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
